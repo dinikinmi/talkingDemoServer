@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChatObjectReceive</servlet-name>
+    <servlet-class>ChatObjectReceive</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionReceive</servlet-name>
+    <servlet-class>QuestionReceive</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionListRequest</servlet-name>
+    <servlet-class>QuestionListRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    
+    <servlet-name>AnswerReceive</servlet-name>
+    <servlet-class>AnswerReceive</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnswerListRequest</servlet-name>
+    <servlet-class>AnswerListRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionContentRequest</servlet-name>
+    <servlet-class>QuestionContentRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyQuestionRequest</servlet-name>
+    <servlet-class>MyQuestionRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistReceive</servlet-name>
+    <servlet-class>RegistReceive</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchUser</servlet-name>
+    <servlet-class>SearchUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Init</servlet-name>
+    <servlet-class>Init</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExtendsRequestHandler</servlet-name>
+    <servlet-class>ExtendsRequestHandler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChildRequestHandler</servlet-name>
+    <servlet-class>ChildRequestHandler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SupperClassRequestHd</servlet-name>
+    <servlet-class>SupperClassRequestHd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnswerContentRequestHd</servlet-name>
+    <servlet-class>AnswerContentRequestHd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommenceReceiveHd</servlet-name>
+    <servlet-class>CommenceReceiveHd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommenceListRequestHd</servlet-name>
+    <servlet-class>CommenceListRequestHd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyAnswerListRequestHd</servlet-name>
+    <servlet-class>MyAnswerListRequestHd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ChatObjectReceive</servlet-name>
+    <url-pattern>/ChatReceive</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionReceive</servlet-name>
+    <url-pattern>/QuestionReceive</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionListRequest</servlet-name>
+    <url-pattern>/QuestionListRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnswerReceive</servlet-name>
+    <url-pattern>/AnswerReceive</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnswerListRequest</servlet-name>
+    <url-pattern>/AnswerListRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionContentRequest</servlet-name>
+    <url-pattern>/QuestionContentRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyQuestionRequest</servlet-name>
+    <url-pattern>/MyQuestionRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistReceive</servlet-name>
+    <url-pattern>/RegistReceive</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUser</servlet-name>
+    <url-pattern>/SearchUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Init</servlet-name>
+    <url-pattern>/servlet/Init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExtendsRequestHandler</servlet-name>
+    <url-pattern>/ExtendsRequestHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChildRequestHandler</servlet-name>
+    <url-pattern>/ChildRequestHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SupperClassRequestHd</servlet-name>
+    <url-pattern>/SupperClassRequestHd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnswerContentRequestHd</servlet-name>
+    <url-pattern>/AnswerContentRequestHd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommenceReceiveHd</servlet-name>
+    <url-pattern>/CommenceReceiveHd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommenceListRequestHd</servlet-name>
+    <url-pattern>/CommenceListRequestHd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyAnswerListRequestHd</servlet-name>
+    <url-pattern>/MyAnswerListRequestHd</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
